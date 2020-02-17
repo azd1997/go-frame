@@ -1,0 +1,6 @@
+{
+  "logger_config": {
+    "log_path": "./logger/log/log0218",
+    "log_level": "debug"
+  }
+}
