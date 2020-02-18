@@ -20,6 +20,6 @@ func InitRedis(conf config.RedisConfig) error {
 		return errors.Wrap(err, "InitRedis")
 	}
 
-	logger.GetLogger().Info("Redis ping: ", zap.String("ping", pong))
+	logger.Logger().Info("Redis ping: ", zap.String("ping", pong))
 	return nil
 }

@@ -5,3 +5,57 @@
 2020-02-17T21:44:36.074-0500	info	Init success!
 2020-02-17T22:17:35.954-0500	info	Redis ping: 	{"ping": "PONG"}
 2020-02-17T22:17:35.956-0500	info	Init success!
+2020-02-17T22:55:05.819-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T22:55:05.819-0500	info	Init success!
+2020-02-17T22:55:37.551-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T22:55:37.551-0500	info	Init success!
+2020-02-17T22:59:22.926-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T22:59:22.927-0500	info	Init success!
+2020-02-17T23:00:23.915-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:00:23.915-0500	info	Init success!
+2020-02-17T23:07:59.392-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:07:59.392-0500	info	Init success!
+2020-02-17T23:10:57.230-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:10:57.230-0500	info	Init success!
+2020-02-17T23:13:13.039-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:13:13.047-0500	info	Init success!
+2020-02-17T23:15:09.137-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:15:09.137-0500	info	Init success!
+2020-02-17T23:15:37.092-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:15:37.093-0500	info	Init success!
+2020-02-17T23:15:59.962-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:15:59.962-0500	info	Init success!
+2020-02-17T23:16:44.003-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:16:44.003-0500	info	Init success!
+2020-02-17T23:26:52.589-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:26:52.589-0500	info	Init success!
+2020-02-17T23:26:52.590-0500	error	connect to nsqlookupd failed: 	{"error": "dial tcp 127.0.0.1:4050: connect: connection refused"}
+2020-02-17T23:28:03.385-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:28:03.393-0500	info	Init success!
+2020-02-17T23:28:03.432-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:03.432-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:03.433-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:03.433-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:03.433-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:03.433-0500	info	receive	{"eiger": "hello new msg"}
+2020-02-17T23:28:03.433-0500	info	receive	{"eiger": "hello new msg222"}
+2020-02-17T23:28:03.434-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:03.434-0500	info	receive	{"eiger": "hello eiger"}
+2020-02-17T23:28:27.875-0500	info	receive	{"eiger": "hello new msg222"}
+2020-02-17T23:29:56.156-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:29:56.157-0500	info	Init success!
+2020-02-17T23:32:35.903-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:32:35.912-0500	info	Init success!
+2020-02-17T23:33:04.722-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:33:04.729-0500	info	Init success!
+2020-02-17T23:48:30.180-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:48:30.189-0500	info	Init success!
+2020-02-17T23:48:30.222-0500	info	receive	{"eiger": "hello new msg222"}
+2020-02-17T23:48:43.502-0500	info	receive	{"eiger": "hello new msg222"}
+2020-02-17T23:49:32.858-0500	info	receive	{"eiger": "hello new msg222"}
+2020-02-17T23:50:58.457-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:50:58.458-0500	info	Init success!
+2020-02-17T23:51:08.950-0500	info	receive	{"eiger": "hello new msg222"}
+2020-02-17T23:58:43.465-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T23:58:43.473-0500	info	Init success!
+2020-02-17T23:58:56.255-0500	info	receive	{"eiger": "hello new msg222"}

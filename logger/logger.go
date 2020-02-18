@@ -46,6 +46,6 @@ func InitLogger(conf config.LoggerConfig) error {
 	return nil
 }
 
-func GetLogger() *zap.Logger {
+func Logger() *zap.Logger {
 	return logger
 }

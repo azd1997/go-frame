@@ -16,6 +16,7 @@
 "rpc_config":
   "addr": ":8081"
 "nsq_config":
-  "topic": "awesome"
+  "topic": "eiger"
   "channel": "ch"
   "nsqlookupd_addr": "127.0.0.1:4161"
+  "nsqd_addr": "127.0.0.1:4150"
