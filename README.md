@@ -35,7 +35,7 @@
 
 ## 2. 项目启动流程
 
-![workflow](resources/images/workflow.png)
+![workflow](/resources/images/workflow.png)
 
 ## 3. 配置
 
