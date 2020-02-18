@@ -1,8 +1,8 @@
 package config
 
 import (
-	"encoding/json"
 	"github.com/pkg/errors"
+	"gopkg.in/yaml.v2"
 	"io/ioutil"
 )
 
@@ -48,7 +48,7 @@ func InitConfig(configPath string) error {
 	if err != nil {
 		return errors.Wrap(err, "Read config file failed")
 	}
-	err = json.Unmarshal(configFile, &conf)
+	err = yaml.Unmarshal(configFile, &conf)
 	if err != nil {
 		return errors.Wrap(err, "Unmarshal config file failed")
 	}

@@ -18,3 +18,5 @@ func GetServerTime(ctx *gin.Context) {
 	resp.Code, resp.Msg, resp.Data = controller.GetServerTime()
 	ctx.JSON(resp.Code, resp)
 }
+
+

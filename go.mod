@@ -9,6 +9,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-xorm/xorm v0.7.9
 	github.com/golang/protobuf v1.3.3
+	github.com/gorilla/websocket v1.4.1
 	github.com/kr/pretty v0.2.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/onsi/ginkgo v1.12.0 // indirect
