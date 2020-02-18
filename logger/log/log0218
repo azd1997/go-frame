@@ -1,1 +1,5 @@
 2020-02-17T11:16:53.051-0500	info	Init success!
+2020-02-17T20:39:59.204-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T20:39:59.212-0500	info	Init success!
+2020-02-17T21:44:36.073-0500	info	Redis ping: 	{"ping": "PONG"}
+2020-02-17T21:44:36.074-0500	info	Init success!

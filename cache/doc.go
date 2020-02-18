@@ -1,2 +1,2 @@
 // redis缓存
-package redis
+package cache

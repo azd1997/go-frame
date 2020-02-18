@@ -4,8 +4,12 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/azd1997/go-frame/cache/redis"
 	"github.com/azd1997/go-frame/config"
+	"github.com/azd1997/go-frame/db"
 	"github.com/azd1997/go-frame/logger"
+	"github.com/azd1997/go-frame/process/http"
+	"github.com/azd1997/go-frame/process/rpc"
 	"os"
 )
 
@@ -42,6 +46,29 @@ func main() {
 
 	fmt.Println(loggerConfig)
 
+	// 开启mysql数据库连接
+	err = db.InitEngine(config.GetConfig().DBConfig)
+	if err != nil {
+		fmt.Printf("InitEngine failed: %v\n", err)
+		os.Exit(1)
+	}
+
+	// 开启redis缓存连接
+	err = redis.InitRedis(config.GetConfig().RedisConfig)
+	if err != nil {
+		fmt.Printf("InitRedis failed: %v\n", err)
+		os.Exit(1)
+	}
+
+	// 启动HTTP服务
+	go http.StartHTTPServer(config.GetConfig().HttpConfig)
+
+	// 启动RPC服务
+	go rpc.StartRPCServer(config.GetConfig().RpcConfig)
+
 
 	logger.GetLogger().Info("Init success!")
+
+	// 阻止主go程退出
+	select {}
 }
